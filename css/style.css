@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6, p,ol,ul,span{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* COMMON CSS END */
+.own-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.own-image img{
+    width: 50%;
+    height: 506px;
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: #63d763;
+    padding: 10px 100px;
+}
+.d-flex .container ,marquee{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 0;
+    color: white;
+}
+.container a{
+    width: 100px;
+}
+.container a img {
+    width: 65px;
+}
+/* .container{
+    max-width: 1100px;
+    margin: auto;
+} */
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grade-cal{
+border: 1px solid #ddd;
+margin: 100px 0 50px 50px;
+padding: 30px;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: #fff;
+}
+.grade-cal .same label {
+    font-size: 18px;
+    font-weight: 500;
+}
+.grade-cal .same {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 250%;
+    align-items: center;
+}
+.grade-cal .same input {
+    width: 66%;
+    padding: 0 20px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+button {
+    width: 100%;
+    outline: none;
+    background-color: #63d763;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.table-rows {
+    padding: 16px 30px 16px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.border {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 50px;
+}
+td.d-inline-block {
+    margin-left: 10px;
+}
+.flex-td{
+   display: flex;
+   justify-content: center;
+   background-color: #63d763;
+   color: white;
+   font-weight: 700;
+}
+.flex-td td{
+    padding: 0 10px;
+}

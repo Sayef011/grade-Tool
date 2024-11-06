@@ -1,0 +1,42 @@
+/* ALL VERSION ADDED
+@media (min-width: 320px) and (max-width: 575px){
+    .grade-cal {
+        margin: 30px 0 50px 0px;
+        padding: 10px 10px;
+        background-color: aquamarine;
+    }
+} */
+
+ @media (min-width:320px) and (max-width:767px){
+    .grade-cal {
+        margin: 30px 0 50px 0px;
+        padding: 10px 10px;
+    }
+    .grade-cal .same input {
+        width: 35%;
+    }
+    .container .row {
+        justify-content: center;
+    }
+    .border {
+        margin: 0 0px;
+    }
+    .grade-cal .same label {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .grade-cal .same input {
+        width: 52%;
+        padding: 0px 10px;
+        margin: 10px 0;
+    }
+    .grade-cal .same {
+        line-height: 200%;
+    }
+    header {
+        padding: 10px 0px;
+    }
+    .table-rows {
+        padding: 16px 0px 16px 0px;
+    }
+} 
